@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><!DOCTYPE KDevPrjSession ><KDevPrjSession>
+ <LastCompileConfig>(Predefinito)</LastCompileConfig>
+ <Mainframe MaximizeMode="1" />
+ <DocsAndViews NumberOfDocuments="9" >
+  <Doc0 CursorPosLine="1" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/iw3grx/electronics/mitan/pcnec/pcnec/lowlevel.c" >
+   <View0 Top="0" Width="826" Attach="0" Height="440" Left="0" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc0>
+  <Doc1 CursorPosLine="182" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="40" FileName="/home/iw3grx/electronics/mitan/pcnec/pcnec/nec78k0.c" >
+   <View0 Top="0" Width="94" Attach="0" Height="1" Left="0" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc1>
+  <Doc2 CursorPosLine="21" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="57" FileName="/home/iw3grx/electronics/mitan/pcnec/pcnec/main.h" >
+   <View0 Top="0" Width="826" Attach="0" Height="440" Left="0" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc2>
+  <Doc3 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/iw3grx/electronics/mitan/pcnec/pcnec/docs/en/index-1.html" >
+   <View0 Top="0" Width="826" Attach="0" Height="440" Left="0" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc3>
+  <Doc4 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/iw3grx/electronics/mitan/pcnec/pcnec/docs/en/index-2.html" >
+   <View0 Top="0" Width="826" Attach="0" Height="440" Left="0" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc4>
+  <Doc5 CursorPosLine="9" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="16" FileName="/home/iw3grx/electronics/mitan/pcnec/pcnec/docs/en/index-3.html" >
+   <View0 Top="0" Width="826" Attach="0" Height="440" Left="0" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc5>
+  <Doc6 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/iw3grx/electronics/mitan/pcnec/pcnec/docs/en/index-4.html" >
+   <View0 Top="0" Width="826" Attach="0" Height="440" Left="0" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc6>
+  <Doc7 CursorPosLine="11" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="16" FileName="/home/iw3grx/electronics/mitan/pcnec/pcnec/docs/en/index-5.html" >
+   <View0 Top="0" Width="826" Attach="0" Height="440" Left="0" Focus="0" Type="KWriteView" MinMaxMode="0" />
+  </Doc7>
+  <Doc8 CursorPosLine="0" Type="KWriteDoc" NumberOfViews="1" CursorPosCol="0" FileName="/home/iw3grx/electronics/mitan/pcnec/pcnec/docs/en/index-6.html" >
+   <View0 Top="0" Width="826" Attach="0" Height="440" Left="0" Focus="1" Type="KWriteView" MinMaxMode="0" />
+  </Doc8>
+ </DocsAndViews>
+</KDevPrjSession>

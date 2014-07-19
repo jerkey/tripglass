@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+ <META NAME="GENERATOR" CONTENT="SGML-Tools 1.0.9">
+ <TITLE>The Pcnec Handbook: Introduction</TITLE>
+ <LINK HREF="index-2.html" REL=next>
+
+ <LINK HREF="index.html#toc1" REL=contents>
+</HEAD>
+<BODY>
+<A HREF="index-2.html">Next</A>
+Previous
+<A HREF="index.html#toc1">Contents</A>
+<HR>
+<H2><A NAME="s1">1. Introduction</A></H2>
+Pcnec is a simple command-interface program which permit to program Nec 78k/0 and Nec 78k/0s
+8 bit flash microcontrollers using a very simple interface connected to the PC parallel port.<br>
+It was originally written for Linux, but it can be compiled for several other unices OS making
+little modifications to the microdelay.c routine.<br>
+Because Nec flash microcontrollers require very long time to be pre-written, erased and verified,
+Pcnec was been written optimizing all timings, expecially those which were reporting uncorrectly
+on the Nec flash specifications.<br><br>
+Warning: this is an opersource software, that you can freely exchange and improve: please read
+the <a href="index-6.html">LICENSE</a>. The software is provided with absolute NO WARRANTY!<br>
+
+
+<P>
+<H2><A NAME="ss1.1">1.1 Changes</A>
+<dl>
+<dt>V0.5 - 2003-05-13<dd><ul>
+<li>Added new command line parameter <b>-p #VppPulses</b> to set the number of pulses that
+must be sent to the Vpp line during power-up (default 0): this is useful for 78F0078 or other devices
+that should be programmed to SPI interface other that 0.
+<li>Added new command line parameter <b>-l #LoopsPerMicroSecond</b> which is used in Windows/CygWin
+environment to set how many operation the CPU will perform in a microsecond.<br>
+The default value is 75, which is good to obtain 1uS timings in a PII 333MHz.<br>
+This is not used for timings longer than 10uS (when it is used usleep() function to established
+correct timings) and it is not used on Linux (which has precise 1uS timing).
+<li>
+
+</ul>
+</dl>
+</H2>
+
+<P>
+<P>
+<HR>
+<A HREF="index-2.html">Next</A>
+Previous
+<A HREF="index.html#toc1">Contents</A>
+</BODY>
+</HTML>

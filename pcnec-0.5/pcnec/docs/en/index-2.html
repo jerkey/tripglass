@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+ <META NAME="GENERATOR" CONTENT="SGML-Tools 1.0.9">
+ <TITLE>The Pcnec Handbook: Installation</TITLE>
+ <LINK HREF="index-3.html" REL=next>
+ <LINK HREF="index-1.html" REL=previous>
+ <LINK HREF="index.html#toc2" REL=contents>
+</HEAD>
+<BODY>
+<A HREF="index-3.html">Next</A>
+<A HREF="index-1.html">Previous</A>
+<A HREF="index.html#toc2">Contents</A>
+<HR>
+<H2><A NAME="s2">2. Installation</A></H2>
+If you got the pcnec executable file, just copy it to a directory included in your PATH environment
+variable, for example <tt>/usr/local/bin</tt>.<br>
+Then try to execute it typing, from the shell, <tt>pcnec -h</tt> ; if you get an error like
+"command not found", you have not copied the pcnec executable to a directory in your PATH; in this
+case you can run program typing <tt>./pcnec -h</tt> from the directory within the binary file.<br>
+
+<P>
+<H2><A NAME="ss2.1">2.1 How to obtain Pcnec </A>
+</H2>
+Pcnec was written by Paolo Subiaco, and you are free to download the software, interface schematic and
+information from the url <a href="http://www.creasol.it/">http://www.creasol.it/equipment/</a>.<br>
+
+<P>
+<P>
+<H2><A NAME="ss2.2">2.2 Requirements</A>
+</H2>
+You need a PC compatible with a parallel port (don't worry if it is
+shared with your printer or scanner), with GNU/Linux or Windows/Cygwin operating systems<br>
+<b>It does NOT run correctly on every PC</b> because some parallel port interface
+are not very low impedance so it can be little reflections on the parallel cable:
+<b>using a flat cable to connect interface to the PC, long as minimum as possible can be
+a good chance to get interface working on every PC!</b>
+
+<P>
+<P>
+<H2><A NAME="ss2.3">2.3 Compilation and installation</A>
+</H2>
+
+<P>
+<P>In order to compile and install Pcnec on your system, type the following in
+the base directory of the Pcnec distribution:
+<P>
+<BLOCKQUOTE><CODE>
+<PRE>
+% ./configure
+% make
+% make install
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>Since Pcnec uses <tt>autoconf</tt> you should have not trouble
+compiling it.
+Should you run into problems please report them to the the author at
+<A HREF="mailto:psubiaco@creasol.it">Paolo Subiaco - http://www.creasol.it</A><P>
+<P>
+<P>
+<HR>
+<A HREF="index-3.html">Next</A>
+<A HREF="index-1.html">Previous</A>
+<A HREF="index.html#toc2">Contents</A>
+</BODY>
+</HTML>
